@@ -3,8 +3,16 @@
 		{
 			"Name": "ropsten",
 			"PolyChainID": 2,
-			"Provider": "https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
-			"Deployer": "0xa3eB0DAa15dB0dEde52462D042ae39D6928e7a3d"
+			"Provider": "https://ropsten.infura.io/v3/9bca539684b6408d9dbcbb179e593eab",
+			"Deployer": "0xa3eB0DAa15dB0dEde52462D042ae39D6928e7a3d",
+			"LockProxy": "0xdE90b01eB9F6126A9fc2ADF66FD4714cEc63A6cb",
+			"EthCrossChainData": "0x36a87fA9AA530E684880f8a0Da5f40EaFABdE894",
+			"CallerFactory": "0xFBAD8372dFb00CACcEa0F1E9aD5B78A2a30cDED8",
+			"EthCrossChainManagerImplementation": "0xdA72a097b5B96183874b83a273EBC00118C47e3A",
+			"EthCrossChainManager": "0x93Ca2c73570D6065f0E5b3fE0E556B41C06EbF07",
+			"WrapperV1": "0x26B84c77B9a88E5EA8a12a63C9460e3DAFbbdc90",
+			"WrapperV2": "0x6335f4B8Dc169497d23F8b168E2290f65DF234Ac",
+			"Wrapper": "0x6335f4B8Dc169497d23F8b168E2290f65DF234Ac"
 		}
 	]
 }
