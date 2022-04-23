@@ -39,7 +39,7 @@ async function main() {
     const EthCrossChainData = await hre.ethers.getContractFactory("EthCrossChainData");
     const CallerFactory = await hre.ethers.getContractFactory("CallerFactoryWithAdmin");
     let EthCrossChainManagerImplementation = await hre.ethers.getContractFactory("EthCrossChainManagerImplementation");
-    const EthCrossChainManager = await hre.ethers.getContractFactory("EthCrossChainManager");
+    const EthCrossChainManager = await hre.ethers.getContractFactory("EthCrossChainManagerNoWhiteList");
     const WrapperV1 = await hre.ethers.getContractFactory("PolyWrapperV1");
     const WrapperV2 = await hre.ethers.getContractFactory("PolyWrapperV2");
     let polyId = config.PolyChainID
