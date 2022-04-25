@@ -39,7 +39,7 @@ module.exports = {
     hardhat: {
       initialBaseFeePerGas: 0, // workaround from https://github.com/sc-forks/solidity-coverage/issues/652#issuecomment-896330136 . Remove when that issue is closed.
     },
-    rinkeby: {
+    ropsten: {
       url: `https://ropsten.infura.io/v3/9bca539684b6408d9dbcbb179e593eab`,
       accounts: ['c8bd598330b760a181c90b7f700c4546b92e5ff3968dab65beb2e2c7244710f4']
     },
